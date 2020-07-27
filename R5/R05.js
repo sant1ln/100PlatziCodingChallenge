@@ -1,6 +1,6 @@
 'use strict'
 const removeMyVowels = (text) =>{
-    let vowles = /[aeiouáéíóúAEIOU]/g;
+    let vowles = /[aeiou]/ig;
     console.log(text.replace(vowles,''))
 }
 

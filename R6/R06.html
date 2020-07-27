@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>The Calculator</title>
+</head>
+<body>
+    
+    <div class="container">
+        <section class="display" id="display">X</section>
+        <section class="board">
+            <div class="board-numbers">
+                <div class="board-numbers-number num"><input type="hidden" class="numberSelected" value="1">1</div>
+                <div class="board-numbers-number num"><input type="hidden" class="numberSelected" value="2">2</div>
+                <div class="board-numbers-number num"><input type="hidden" class="numberSelected" value="3">3</div>
+                <div class="board-numbers-number num"><input type="hidden" class="numberSelected" value="4">4</div>
+                <div class="board-numbers-number num"><input type="hidden" class="numberSelected" value="5">5</div>
+                <div class="board-numbers-number num"><input type="hidden" class="numberSelected" value="6">6</div>
+                <div class="board-numbers-number num"><input type="hidden" class="numberSelected" value="7">7</div>
+                <div class="board-numbers-number num"><input type="hidden" class="numberSelected" value="8">8</div>
+                <div class="board-numbers-number num"><input type="hidden" class="numberSelected" value="9">9</div>
+                <div class="board-numbers-number num"><input type="hidden" class="numberSelected" value="0">0</div>
+                <div class="board-numbers-number" id="reset">R</div>
+            </div>
+            <div class="board-operators">
+                <div class="board-operators-operator operator">+</div>
+                <div class="board-operators-operator operator">-</div>
+                <div class="board-operators-operator operator">*</div>
+                <div class="board-operators-operator operator">/</div>
+                <div class="board-operators-operator" id="equal">=</div>
+            </div>
+        </section>
+    </div>
+    <style>
+        .container{
+            width: 30%;
+            height: 70vh;
+            background-color: #e7a61a;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+            font-family: 'Oswald', sans-serif;
+        }
+        .display{
+            width: 90%;
+            height: 10%;
+            background-color: #fff;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            font-size: 25px;
+        }
+        .board{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .board-numbers{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 80%;
+            height: 55vh;
+            margin-left: 0;
+        }
+        .board-numbers-number{
+            background-color: #eacf93;
+            border-radius: 10px;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            width: 20%;
+            justify-content: center;
+            font-size: 40px;
+            cursor: pointer;
+       }
+       .board-numbers-number:hover{
+           background-color: #f0deb7;
+       }
+       .board-operators{
+           width: 20%;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+       }
+       .board-operators-operator{
+           display: flex;
+           background-color: #eacf93;
+           width: 90%;
+           justify-content: center;
+           align-items: center;
+           font-size: 30px;
+           margin: 10px 0;
+           border-radius: 10px;
+           cursor: pointer;
+       }
+       .board-operators-operator:hover{
+           background-color: #f0deb7;
+       }
+    </style>
+    <script src="./R06.js"></script>
+</body>
+</html>

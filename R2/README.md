@@ -1,0 +1,2 @@
+>2 Area de un triangulo
+>> El reto del día de hoy es escribir un programa que tome la base y la altura como parámetros y calcule el área del triángulo. Bonus: El programa debe determinar si el triángulo es isósceles, equilátero o escaleno.
