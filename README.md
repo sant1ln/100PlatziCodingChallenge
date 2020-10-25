@@ -15,3 +15,6 @@
 14. <a href="./R14">Número Primos</a>
 15. <a href="./R15">Calculadora de volúmenes</a>
 16. <a href="./R16">CalculadoraV2</a>
+17. <a href="./R17">¿Cómo puedo ordenar una lista de números de mayor a menor?</a>
+18. <a href="./R18">Memory (parte 1)!</a>
+19. <a href="./R19">Memory (parte 2)!</a>

@@ -1,0 +1,1 @@
+18. Crea un código que te muestre 4 caracteres entre los siguientes de forma aleatoria: "#$%()/& 
