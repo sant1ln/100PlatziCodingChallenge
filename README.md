@@ -18,3 +18,5 @@
 17. <a href="./R17">¿Cómo puedo ordenar una lista de números de mayor a menor?</a>
 18. <a href="./R18">Memory (parte 1)!</a>
 19. <a href="./R19">Memory (parte 2)!</a>
+22. <a href="./R22">Interes compuesto</a>
+23. <a href="./R22">¿Que pasará sí?</a>
